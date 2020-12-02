@@ -1,5 +1,5 @@
 {
-  "name": "config-loader-react",
+  "name": "@sybco/config-loader-react",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
