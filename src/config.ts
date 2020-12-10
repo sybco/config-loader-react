@@ -1,8 +1,8 @@
 const config: { [index: string]: { message: any } } = {};
 export default config;
 
-function load() {
-  return fetch('config.json')
+function load(configPath: string) {
+  return fetch(configPath)
     .then(result => result.json())
     .then((newconfig) => {
       for (const prop in config) {
